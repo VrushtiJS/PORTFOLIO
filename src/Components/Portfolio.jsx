@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/booksondesk.png";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Art Gallery Website Design Case Study",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Designed a website using Adobe XD for a art gallery supporting ecommerce features to enable indigenous artist to sell their art pieces as well.",
+    url: "https://drive.google.com/file/d/1wtKbW_ADREPQ5FYgZ17CSqYEcaE9g12i/view",
   },
   {
-    title: "Web Development for Beginners",
+    title: "KalaKendra Mobile App Design Case Study",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Designed a clean mobile app using Figma. Curated an interface that embraces minimalist aesthetics, allowing users to focus on the artistry showcased within. ",
+    url: "https://drive.google.com/file/d/1f7rzIaz-OF60gsp0gPSFWlv6vOlQokIO/view",
   },
   {
     title: "My Resume Site",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Created from scratch with Webflow. Includes my experience and design abilities.",
+    url: "https://vs-design-portfolio.webflow.io/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "LifeVeda App Design Project",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Coming Soon...  Designing for Social Good.",
+    url: " ",
   },
 ];
 
@@ -64,7 +64,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "90%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideIn" }}
             alt={imageAltText}
           />
         </div>
