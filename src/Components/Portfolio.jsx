@@ -43,14 +43,14 @@ const projectList = [
     url: "https://drive.google.com/file/d/1f7rzIaz-OF60gsp0gPSFWlv6vOlQokIO/view",
   },
   {
-    title: "My Resume Site",
+    title: "My Webflow Site",
     description: "Created from scratch with Webflow. Includes my experience and design abilities.",
     url: "https://vs-design-portfolio.webflow.io/",
   },
   {
-    title: "LifeVeda App Design Project",
-    description: "Coming Soon...  Designing for Social Good.",
-    url: " ",
+    title: "Resume",
+    description: "It's my latest resume, if you want to know more about me, please check it out.",
+    url: "https://drive.google.com/file/d/1maD0Ogqs0ZVJ3xUKdO8KfV0xVyJZdX_W/view",
   },
 ];
 
