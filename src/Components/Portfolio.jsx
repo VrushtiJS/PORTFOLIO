@@ -44,14 +44,12 @@ const projectList = [
   },
   {
     title: "My Resume Site",
-    description:
-      "Created from scratch with Webflow. Includes my experience and design abilities.",
+    description: "Created from scratch with Webflow. Includes my experience and design abilities.",
     url: "https://vs-design-portfolio.webflow.io/",
   },
   {
     title: "LifeVeda App Design Project",
-    description:
-      "Coming Soon...  Designing for Social Good.",
+    description: "Coming Soon...  Designing for Social Good.",
     url: " ",
   },
 ];
@@ -64,7 +62,12 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideIn" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "1s ease-out 0s 1 slideIn",
+            }}
             alt={imageAltText}
           />
         </div>
