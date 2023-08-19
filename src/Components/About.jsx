@@ -10,13 +10,13 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/basaise he (3).png ";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,18 +24,19 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a final year CSE grad at RRU. An Aspiring UX designer. With a keen eye for aesthetics, blending creativity with empathy, and a heart set on creating seamless experiences weaving together the art of visual storytelling and the technology of delightful interactions. I enjoy creating unique and simplistic user interfaces in creative ways.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
+  "User Experience Design",
+  "Web Design",
+  "Mobile App Design",
+  "User Research",
+  "User Testing",
+  "Inclusive Design",
   "Graphic design",
 ];
 
@@ -45,7 +46,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "'I love to craft amazing and memorable experiences for people around me whom I know, but User Experience Designing helps me craft remarkable digital experiences for a larger audience.'";
 
 const About = () => {
   return (
@@ -55,7 +56,7 @@ const About = () => {
         style={{
           backgroundColor: "white",
           width: "50%",
-          padding: "4rem",
+          padding: "3rem",
           margin: "3rem auto",
           textAlign: "center",
         }}
@@ -68,7 +69,7 @@ const About = () => {
             textAlign: "left",
             columns: 2,
             fontSize: "1.25rem",
-            margin: "2rem 3rem",
+            margin: "2rem 2rem",
             gap: "3rem",
           }}
         >
